@@ -5,14 +5,24 @@
     <link>https://pantsufan.github.io/</link>
     <description>Recent content on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://pantsufan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Jan 2021 12:29:16 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About 🐈</title>
+      <title>Habits are Learned</title>
+      <link>https://pantsufan.github.io/post/habits/</link>
+      <pubDate>Mon, 18 Jan 2021 12:29:16 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/habits/</guid>
+      <description>&lt;p&gt;Life is made up of automatic actions called habits&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
       <link>https://pantsufan.github.io/about/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pantsufan.github.io/about/</guid>
-      <description>I am a web developer and content creator based out of Goa, India. Kninja, is just an alias which I use to communicate on the internet.</description>
+      <description>&lt;p&gt;Know more about me&lt;/p&gt;</description>
     </item>
     
   </channel>
