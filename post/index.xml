@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kninja 🌩</title>
-    <link>https://gohugo.io/post/</link>
+    <link>https://pantsufan.github.io/post/</link>
     <description>Recent content in Posts on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://gohugo.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://pantsufan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
