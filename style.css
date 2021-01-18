@@ -18,7 +18,7 @@
   --radius: 8px;
 
   --theme: #fff;
-  --entry: #fff;
+  --entry: rgb(252, 191, 191);
   --primary: rgba(0, 0, 0, 0.88);
   --secondary: rgba(0, 0, 0, 0.56);
   --tertiary: rgba(0, 0, 0, 0.16);
