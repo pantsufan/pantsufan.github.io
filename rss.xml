@@ -6,7 +6,41 @@
     <description>Recent content on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Feb 2021 07:05:20 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 06:00:52 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YouTube-DL</title>
+      <link>https://pantsufan.github.io/post/youtube-dl/</link>
+      <pubDate>Tue, 02 Feb 2021 06:00:52 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/youtube-dl/</guid>
+      <description>&lt;p&gt;Watch Content Offline&lt;/p&gt;
+&lt;p&gt;For the past few weeks, I am off from YouTube. My YouTube channel is getting mirrored on &lt;a href=&#34;https://odysee.com/&#34;&gt;Odysee&lt;/a&gt;. But I still follow my favorite content creators using Invidious, Odysee, and youtube-dl.&lt;/p&gt;
+&lt;p&gt;As most of you would know, what happened with the &lt;a href=&#34;https://www.eff.org/deeplinks/2020/11/github-reinstates-youtube-dl-after-riaas-abuse-dmca&#34;&gt;repository of youtube-dl&lt;/a&gt; I am glad that it&amp;rsquo;s back and functional again. Setting up youtube-dl for the first time can be troublesome for new users, but once you get the hang of it, you would not stop, especially with config, the download process becomes easy.&lt;/p&gt;
+&lt;p&gt;Here is my config, and yes, I am on a Windows machine for now.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-f mp4
+-f 137+140/299+140
+-o C:/Users/Joel/Downloads/YouTube/%(title)s-%(uploader)s.%(ext)s
+--no-mtime
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Refer &lt;a href=&#34;https://github.com/ytdl-org/youtube-dl/blob/master/README.md#output-template&#34;&gt;Output Template&lt;/a&gt; for more details&lt;/p&gt;
+&lt;p&gt;For those who wanted to get started with youtube-dl, here is a great video to begin.
+
+&lt;iframe
+  src=&#34;//invidious.kavin.rocks/embed/5axVgHHDBvU&#34;
+  title=&#34;invidious player&#34;
+  height=&#34;400&#34;
+  frameborder=&#34;0&#34;
+  marginwidth=&#34;0&#34;
+  marginheight=&#34;0&#34;
+  scrolling=&#34;no&#34;
+  style=&#34;width: 100%&#34;
+  allowfullscreen=&#34;true&#34;
+&gt;
+&lt;/iframe&gt;
+
+&lt;/p&gt;
+&lt;p&gt;My process of getting videos offline is simple. Get the link of the video from invidious and paste it into the command prompt. But if I am on my phone, I use &lt;a href=&#34;https://github.com/TeamNewPipe/NewPipe&#34;&gt;Newpipe&lt;/a&gt; to watch and download YouTube videos.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Create More, Consume Less</title>
       <link>https://pantsufan.github.io/post/create/</link>
