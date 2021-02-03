@@ -483,14 +483,14 @@ img {
   display: block;
   padding-left: 14px;
   padding-right: 14px;
-  color: var(--secondary);
+  color: #0f111a;
   font-size: 14px;
   line-height: 34px;
-  background: var(--code-bg);
+  background: #ebcb8b;
   border-radius: 4px;
 }
 .post-tags a:hover {
-  background: var(--border);
+  background: #ffbf3e;
 }
 /* Footer
 -------------------------------------------------- */
