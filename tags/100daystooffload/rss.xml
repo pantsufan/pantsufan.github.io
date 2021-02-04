@@ -6,7 +6,21 @@
     <description>Recent content in 100DaysToOffload on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Feb 2021 06:15:15 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/tags/100daystooffload/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2021 06:00:15 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/tags/100daystooffload/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trying Out Spectrwm</title>
+      <link>https://pantsufan.github.io/post/spectrwm/</link>
+      <pubDate>Thu, 04 Feb 2021 06:00:15 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/spectrwm/</guid>
+      <description>&lt;p&gt;Minimal window manager&lt;/p&gt;
+&lt;p&gt;After my previous post about awesome wm, &lt;a href=&#34;https://fosstodon.org/@joeligj12&#34;&gt;Chrono&lt;/a&gt; suggested trying out Spectrwm. Spectrwm is a small, dynamic tiling and reparenting window manager for X11. It was for the very first time I heard about this window manager so I decided to give it a try.&lt;/p&gt;
+&lt;p&gt;I went with ArcoLinuxB since it has the spectrwm version available to download. The installation went fast since I didn&amp;rsquo;t install any extra packages that ArcoLinux provides during installation.&lt;/p&gt;
+&lt;p&gt;Now coming to Spectrwm, ArcoLinux has already configured most of the stuff so I didn&amp;rsquo;t have to waste much time setting it up by myself. The keybindings are quite hard to find for a new user but since I knew where to lookup for the config I had no issues with that part.&lt;/p&gt;
+&lt;p&gt;I must say the window manager is quite minimal and easy to use if you remember properly the keybindings. ArcoLinux also comes with a few extra tricks at its sleeves. Such as preconfigured keybindings for most of the popular software, a key bind to change the wallpaper, and also a preconfigured polybar which is neat. It also has its own tweaks menu where you can set hblock, change the terminal theme, configure auto startup, and much more which is handy for a new user.&lt;/p&gt;
+&lt;p&gt;Overall spectrwm can be the very first window manager for most of the new users and especially you go with ArcoLinux since most of the stuff is already preconfigured and ready to use out of the box.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Trying Out Awesome WM</title>
       <link>https://pantsufan.github.io/post/awesome-wm/</link>
