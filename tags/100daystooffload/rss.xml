@@ -20,7 +20,7 @@
 &lt;p&gt;A favicon is a small, iconic image that represents your website. My blog&amp;rsquo;s favicon was taking around 300 KB, due to which every time I requested my blog, the favicon was adding its extra size to the final page size. Upon discovering this issue, I redid my favicon as 32x32 instead of the previous 256x256.&lt;/p&gt;
 &lt;p&gt;The indicated fix massively improved the page size. Now, my blog&amp;rsquo;s uncompressed page size is 22.8 KB compared to the original 335.6 KB.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.postimg.cc/3J7DYCKL/new-Result-min.png&#34; alt=&#34;Current page size&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Sometimes the solution to our problem is right in front of us but, we don&amp;rsquo;t attempt to look at it thereby, wasting time and energy on something differnet.&lt;/p&gt;</description>
+&lt;p&gt;Sometimes the solution to our problem is right in front of us but, we don&amp;rsquo;t attempt to look at it thereby, wasting time and energy on something different.&lt;/p&gt;</description>
     </item>
     
     <item>
