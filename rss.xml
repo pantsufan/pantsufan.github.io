@@ -6,7 +6,18 @@
     <description>Recent content on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Feb 2021 06:08:06 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 06:27:36 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading Computer Code Is Different</title>
+      <link>https://pantsufan.github.io/post/reading-code/</link>
+      <pubDate>Sun, 07 Feb 2021 06:27:36 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/reading-code/</guid>
+      <description>&lt;p&gt;But Why?&lt;/p&gt;
+&lt;p&gt;Learning a computer programming language is somewhat similar to that of learning a new language to speak. According to &lt;a href=&#34;https://news.mit.edu/2020/brain-reading-computer-code-1215&#34;&gt;MIT neuroscientists&lt;/a&gt; reading computer code doesn&amp;rsquo;t involve the region of the brain which is responsible for language processing. Instead, it activates distributed network called the &lt;strong&gt;multiple demand network&lt;/strong&gt;, which also gets activated during solving a mathematical problem or a crossword.&lt;/p&gt;
+&lt;p&gt;In the case of computer code, the brain uses &lt;strong&gt;multiple areas&lt;/strong&gt; of multiple demand network. Multiple demand network gets activated only when there is a need to store more information and while performing mental tasks. The MIT team also found out that reading computer code appears to activate both the left and right sides of the multiple demand network. There is no finding of some region exclusively devoted to programming, but there is some possibility in those who have more coding experience.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Reduction of Page Size</title>
       <link>https://pantsufan.github.io/post/page-size/</link>
