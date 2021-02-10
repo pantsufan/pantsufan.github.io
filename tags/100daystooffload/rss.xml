@@ -6,7 +6,23 @@
     <description>Recent content in 100DaysToOffload on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Feb 2021 06:16:37 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/tags/100daystooffload/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 06:06:15 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/tags/100daystooffload/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eleventy My New Love</title>
+      <link>https://pantsufan.github.io/post/eleventy/</link>
+      <pubDate>Wed, 10 Feb 2021 06:06:15 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/eleventy/</guid>
+      <description>&lt;p&gt;A simpler static site generator.&lt;/p&gt;
+&lt;p&gt;I have been a fan of static site generators for a while. I have used Hugo, Jekyll, and even Gatsby. But, at last, I decided to settle on Hugo for my blog. Recently, I discovered this new kid on the block called Eleventy.&lt;/p&gt;
+&lt;p&gt;When I discovered Eleventy, I wanted to try it, so I looked up its documentation but couldn&amp;rsquo;t understand my way around it. Ultimately I decided to lookup on YouTube for tutorials to get started (I am a visual learner). I went with &lt;a href=&#34;https://www.youtube.com/watch?v=j8mJrhhdHWc&#34;&gt;Jason Lengstorf video with Eleventy creator Zach Leatherman&lt;/a&gt;. The video explained most of the concepts, and then I could start my journey with Eleventy.&lt;/p&gt;
+&lt;p&gt;At first, I recreated my blog alongside &lt;a href=&#34;https://simplecss.org/&#34;&gt;Simple CSS&lt;/a&gt; that gave the site a minimal look, and also, there is an RSS plugin for Eleventy. Lastly, I could navigate through the documentation to know more about Eleventy. I ended up not using the recreated blog since I was happy with my current setup but, at least it gives me relief that in the future, I could build a blog from the ground up with the help of Eleventy and any CSS framework.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.ibb.co/bsR06Mq/Web-capture-9-2-2021-858.jpg&#34; alt=&#34;blog&#34; title=&#34;Recreated Blog&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The journey doesn&amp;rsquo;t stop here. The next day I sat down to create my portfolio page so, I used Eleventy and &lt;a href=&#34;https://getuikit.com/&#34;&gt;UIkit&lt;/a&gt;. The final output was just as how I thought about it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.ibb.co/hC3DqQw/Web-capture-9-2-2021-8542.jpg&#34; alt=&#34;portfolio&#34; title=&#34;Portfolio&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you want to find a static site generator that can fulfill your needs, then have a look at &lt;a href=&#34;https://jamstack.org/generators/&#34;&gt;StaticGen&lt;/a&gt;. I have not covered every bit of Eleventy and, what makes it different from others to know more about that, read the introductory post by &lt;a href=&#34;https://www.zachleat.com/web/introducing-eleventy/&#34;&gt;Zach Leatherman&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Create A Gemini Capsule</title>
       <link>https://pantsufan.github.io/post/gemini-capsule/</link>
