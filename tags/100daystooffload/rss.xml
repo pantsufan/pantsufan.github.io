@@ -6,7 +6,22 @@
     <description>Recent content in 100DaysToOffload on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Feb 2021 06:06:15 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/tags/100daystooffload/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Feb 2021 06:08:48 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/tags/100daystooffload/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Fedora For The First Time</title>
+      <link>https://pantsufan.github.io/post/fedora-lxde/</link>
+      <pubDate>Thu, 11 Feb 2021 06:08:48 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/fedora-lxde/</guid>
+      <description>&lt;p&gt;Fedora LXDE&lt;/p&gt;
+&lt;p&gt;My first experience with Fedora was in college. Those computers were running on an older version of Fedora. Recently, I thought of using the &lt;a href=&#34;https://spins.fedoraproject.org/en/lxde/&#34;&gt;LXDE&lt;/a&gt; version of Fedora since that was the interface that I had seen in college.&lt;/p&gt;
+&lt;p&gt;Finding the download link of LXDE took me some time because it came under the section of the spins. When the downloading of the ISO finished, I made an instance in the virtual machine to use.&lt;/p&gt;
+&lt;p&gt;The first difference that I noticed about the Fedora was it came with an Anaconda installer that was simple and easy to use. The installation time was under 10 minutes. To my surprise, the bootup time in the VM was quick compared to my previous Linux distributions. The first thing which everybody should do after installing any distro is to update its packages. Out of the box, there was an update of 643 MB with 540 packages that needed an update. On the first boot, the memory usage was around 500 MB out of 4 GB.&lt;/p&gt;
+&lt;p&gt;Another major difference that caught my attention was the package manager that Fedora uses that is different from Ubuntu. It uses dnf as its package manager. The LXDE version ships with Midori, a lightweight browser. I thought of using Midori as a daily but ended up using Brave. The LXDE version came with Openbox as its window manager.&lt;/p&gt;
+&lt;p&gt;To sum up everything the main reason I chose LXDE over any other desktop environment was that LXDE was the very first desktop environment that I used in my life so obviously, I had a soft corner for it in my heart. Fedora was the medium to time travel back in my childhood where I tinkered around with my computers and to get back the memory of installing my first Linux distribution.&lt;/p&gt;
+&lt;p&gt;(To those who are curious which distro it was the answer is Lubuntu)&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Eleventy My New Love</title>
       <link>https://pantsufan.github.io/post/eleventy/</link>
