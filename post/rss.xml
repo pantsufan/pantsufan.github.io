@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Feb 2021 06:14:42 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/post/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Feb 2021 06:04:23 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/post/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Comment Section To My Blog</title>
+      <link>https://pantsufan.github.io/post/comments/</link>
+      <pubDate>Sat, 13 Feb 2021 06:04:23 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/comments/</guid>
+      <description>&lt;p&gt;Its Simple and Easy&lt;/p&gt;
+&lt;p&gt;Inspired by &lt;a href=&#34;https://joelchrono12.netlify.app/adding-comments-blog/&#34;&gt;this post&lt;/a&gt;, I also wanted to add a comment section to my blog. But the first hurdle was how to get it working and which service to use. Instead of banging my head against the wall, I looked up at Hugo&amp;rsquo;s documentation on &lt;a href=&#34;https://gohugo.io/content-management/comments/#comments-alternatives&#34;&gt;comments&lt;/a&gt;. Over there, I found &lt;a href=&#34;https://utteranc.es/&#34;&gt;Utterances&lt;/a&gt;, an open-source, GitHub comments widget built on GitHub Issues.&lt;/p&gt;
+&lt;p&gt;Utterances specify how to set up the comment section in a very straightforward manner. But there was a problem once I did the initial set up and then went back to my blog to notice that the widget was not appearing. To fix this problem, I went to their GitHub issues and found someone having the &lt;a href=&#34;https://github.com/utterance/utterances/issues/461&#34;&gt;same issue&lt;/a&gt;. After the following solution that was listed over there, the comment section widget started to appear.&lt;/p&gt;
+&lt;p&gt;There you go, my short exploration journey of adding a comment section on this blog. Let me know what do you think in the comment section!&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Recreating My Project Using NextJS</title>
       <link>https://pantsufan.github.io/post/recreate-with-nextjs/</link>
