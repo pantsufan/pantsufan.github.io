@@ -6,7 +6,30 @@
     <description>Recent content on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Feb 2021 07:28:39 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Feb 2021 11:50:21 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bye Windows, Welcome Pop OS</title>
+      <link>https://pantsufan.github.io/post/switching-process/</link>
+      <pubDate>Sat, 20 Feb 2021 11:50:21 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/switching-process/</guid>
+      <description>&lt;p&gt;New Journey&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s been four months since I got my new laptop and, ever since then, I have been on Windows. Before that, I used to use Linux as my daily driver on my old laptop but, after switching to the new one, I was missing Linux so much that it became a part of my everyday routine.&lt;/p&gt;
+&lt;h2 id=&#34;taking-the-first-step&#34;&gt;Taking The First Step&lt;/h2&gt;
+&lt;p&gt;The first step in-order to switch away from Windows was to backup all files, folders and then decide which distro to use.&lt;/p&gt;
+&lt;h3 id=&#34;backup-process&#34;&gt;Backup Process:&lt;/h3&gt;
+&lt;p&gt;I started to back up my files and folders on my external hard drive. Also, I uploaded some of my projects on GitHub as private repositories. The total size of the backup was under 7 GB out of 1.3 TB.&lt;/p&gt;
+&lt;h3 id=&#34;distro-selection&#34;&gt;Distro Selection:&lt;/h3&gt;
+&lt;p&gt;Before all this switching process from the past few weeks, I have been trying out various distros in the virtual machine to see which one suits my needs. The reason why I selected Pop OS was because of its out-of-the-box Nvidia graphics drivers support. It&amp;rsquo;s not the first time using Pop OS as my daily driver previously used it for more than six months on my old laptop before switching to KDE Plasma.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-everything&#34;&gt;Setting Up Everything&lt;/h2&gt;
+&lt;p&gt;Once the installation process got finished, I started to configure it to my liking. I began with gnome tweaks and then added transparent top, user themes, and dash to dock extensions. For theming the setup, I went with the Tela circle icon pack paired with the Nordic, which gives it a new look and feel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.postimg.cc/SKfQgMWW/Pop.png&#34; alt=&#34;Pop OS&#34; title=&#34;Pop OS Setup&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Before switching, I made a list of my most used applications. I went with Codium instead of VS Code as my code editor of choice with Vim to handle text editing. Since I was setting up Linux as my daily driver after a long time, I had to look up how to install Node.js. I was concerned about limit the charge of the battery to 60% since I am at home. I quickly came across &lt;a href=&#34;https://github.com/sreejithag/battery-manager-linux&#34;&gt;this script&lt;/a&gt; made for the ASUS laptop that helped me restrict the charging.&lt;/p&gt;
+&lt;p&gt;Some things which I liked about the Pop OS are the ability to switch the graphics card since I don&amp;rsquo;t play games, I don&amp;rsquo;t need my Nvidia 1650Ti all the time. I have not yet tested the battery life I am looking forward to testing in the future. Also, there were no issues in setting my external monitor refresh rate to 75Hz. Also, the memory usage in Pop OS is less compared to Windows.&lt;/p&gt;
+&lt;h2 id=&#34;conculsion&#34;&gt;Conculsion&lt;/h2&gt;
+&lt;p&gt;Overall there weren&amp;rsquo;t any issues while switching from Windows to Pop OS. I like the clean minimal look that Pop OS has to offer. If anyone is thinking of switching from Windows, I will like to tell them don&amp;rsquo;t think any further, go ahead with any distro of choice they wouldn&amp;rsquo;t regret the decision. It has been one of the best decisions I have made in 2021.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Using An Ultrawide Monitor</title>
       <link>https://pantsufan.github.io/post/ultrawide/</link>
