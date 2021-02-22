@@ -6,7 +6,23 @@
     <description>Recent content on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Feb 2021 11:50:21 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Feb 2021 13:01:18 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DVD: An YouTube-DL For Android</title>
+      <link>https://pantsufan.github.io/post/dvd-youtubedl/</link>
+      <pubDate>Mon, 22 Feb 2021 13:01:18 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/dvd-youtubedl/</guid>
+      <description>&lt;p&gt;Video downloader app powered by youtube-dl.&lt;/p&gt;
+&lt;p&gt;For downloading YouTube videos, I usually rely upon Newpipe but, a few days back, I came across an application on F-Droid called &lt;a href=&#34;https://f-droid.org/en/packages/org.yausername.dvd/&#34;&gt;DVD&lt;/a&gt; that uses youtube-dl.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;youtube-dl is a command-line program to download videos from YouTube.com and a few more sites&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://f-droid.org/repo/org.yausername.dvd/en-US/phoneScreenshots/1.jpg&#34; alt=&#34;DVD&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I tried using the application to download videos off from YouTube for offline viewing purposes. Being powered by, youtube-dl I can download videos not just from Youtube but from 1000+ sites supported by youtube-dl. The application also allows specifying a custom folder to keep the downloaded video/audio files. It provides an option to update the youtube-dl version from settings and run custom commands.&lt;/p&gt;
+&lt;p&gt;The only issue that I faced throughout my usage was the slow downloading speed compared to using youtube-dl on PC. Overall, DVD is a good application for having a portable version of youtube-dl on the go.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Bye Windows, Welcome Pop OS</title>
       <link>https://pantsufan.github.io/post/switching-process/</link>
