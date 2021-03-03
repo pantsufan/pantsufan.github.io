@@ -6,7 +6,21 @@
     <description>Recent content in 100DaysToOffload on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Feb 2021 13:01:18 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/tags/100daystooffload/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Mar 2021 08:59:54 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/tags/100daystooffload/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Switching Away From Notion</title>
+      <link>https://pantsufan.github.io/post/journal/</link>
+      <pubDate>Wed, 03 Mar 2021 08:59:54 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/journal/</guid>
+      <description>&lt;p&gt;Terminal Here I Come&lt;/p&gt;
+&lt;p&gt;I have been using &lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; for the past 1 and half year. My main usage was to journal since I wanted the ability to carry my journal anywhere. I decided to digitize the journal with the help of Notion. Notion indeed is a great app which does multiple things within one application. But it has its own limitations as well. To begin with the privacy and security aspects of the files also the android app is not polished enough at last becoming slower over time.&lt;/p&gt;
+&lt;p&gt;Since all of my journal entries are made using markdown I though it would be great idea if I have total control of my files but the problem that I was facing was how to sync them with my phone. The syncing part was solved with the help of &lt;a href=&#34;https://syncthing.net/&#34;&gt;Sync-thing&lt;/a&gt; a great utility for syncing across various devices.&lt;/p&gt;
+&lt;p&gt;As for writing down my entries I decided to use &lt;a href=&#34;https://vimwiki.github.io/&#34;&gt;vim wiki&lt;/a&gt; but instead of using its own syntax I used markdown and to edit or view those files on my phone I used an app from f-droid called &lt;a href=&#34;https://f-droid.org/en/packages/org.billthefarmer.diary/&#34;&gt;Diary&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To spell check my entries I use &lt;a href=&#34;http://aspell.net/&#34;&gt;Aspell&lt;/a&gt; which is a free and open source spell checker.&lt;/p&gt;
+&lt;p&gt;Till now I am loving the whole experience of just using terminal to write my journal entries and sync them with my phone without any hassle. I should have been doing this from the start itself but its not too late now also. Currently, I am in progress of transferring all the other notes which I have taken with the help of Notion to vim wiki.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>DVD: A YouTube-DL Client For Android</title>
       <link>https://pantsufan.github.io/post/dvd-youtubedl/</link>
