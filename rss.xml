@@ -294,19 +294,9 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Refer &lt;a href=&#34;https://github.com/ytdl-org/youtube-dl/blob/master/README.md#output-template&#34;&gt;Output Template&lt;/a&gt; for more details&lt;/p&gt;
 &lt;p&gt;For those who wanted to get started with youtube-dl, here is a great video to begin.
 
-&lt;iframe
-  src=&#34;//invidious.kavin.rocks/embed/5axVgHHDBvU&#34;
-  title=&#34;invidious player&#34;
-  height=&#34;400&#34;
-  frameborder=&#34;0&#34;
-  marginwidth=&#34;0&#34;
-  marginheight=&#34;0&#34;
-  scrolling=&#34;no&#34;
-  style=&#34;width: 100%&#34;
-  allowfullscreen=&#34;true&#34;
-&gt;
-&lt;/iframe&gt;
-
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/5axVgHHDBvU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;My process of getting videos offline is simple. Get the link of the video from invidious and paste it into the command prompt. But if I am on my phone, I use &lt;a href=&#34;https://github.com/TeamNewPipe/NewPipe&#34;&gt;Newpipe&lt;/a&gt; to watch and download YouTube videos.&lt;/p&gt;</description>
     </item>
