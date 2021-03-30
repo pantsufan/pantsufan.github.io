@@ -6,7 +6,61 @@
     <description>Recent content on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Mar 2021 08:59:54 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 06:06:15 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SkyTube Another YouTube Client</title>
+      <link>https://pantsufan.github.io/post/skytube-review/</link>
+      <pubDate>Tue, 30 Mar 2021 06:06:15 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/skytube-review/</guid>
+      <description>&lt;p&gt;Better than NewPipe?&lt;/p&gt;
+&lt;p&gt;I have been using NewPipe for more than 3 years, but I remembered that there used to be another application on F-Droid called SkyTube, that provided similar functionality as NewPipe. Fast forwarded to present, I wanted to check out how the project has evolved over time since nobody is talking about it and to check if it&amp;rsquo;s better than NewPipe in any way.&lt;/p&gt;
+&lt;p&gt;If you search on F-Droid right now you would find two versions of SkyTube, one with non-OSS libraries and other without it. On &lt;a href=&#34;https://skytube-app.com/&#34;&gt;SkyTube&amp;rsquo;s website&lt;/a&gt; there is a comparison table on what difference both versions have to offer.&lt;/p&gt;
+
+
+  &lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;SkyTube Homescreen&lt;/summary&gt;
+  &lt;br/&gt;
+  &lt;img alt=&#34;SkyTube Homescreen&#34; style=&#34; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;&#34; src=&#34;https://i.postimg.cc/h4zVKvN6/Screenshot-20210330-134549.jpg&#34;&gt;
+&lt;/details&gt;
+&lt;br/&gt;
+
+&lt;p&gt;I been using the normal version of SkyTube for a while now, and so far my favourite feature has been the &lt;strong&gt;channel blocker&lt;/strong&gt;.&lt;/p&gt;
+
+
+  &lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;Channel Block Feature&lt;/summary&gt;
+  &lt;br/&gt;
+  &lt;img alt=&#34;Channel Block Feature&#34; style=&#34; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;&#34; src=&#34;https://i.postimg.cc/qqxJp8r2/Screenshot-20210330-134845.jpg&#34;&gt;
+&lt;br/&gt;
+  &lt;img alt=&#34;Channel Block Feature&#34; style=&#34; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;&#34; src=&#34;https://i.postimg.cc/wMpxKwC6/Screenshot-20210330-134850.jpg&#34;&gt;
+&lt;/details&gt;
+&lt;br/&gt;
+
+&lt;p&gt;This feature makes my YouTube watching experience a lot better since I would not encounter those channels that I hate to view in my search feed since most of them have click baiting titles and thumbnails.&lt;/p&gt;
+&lt;p&gt;Till now, the experience is quite good. I faced only one crash during subscription importing process. SkyTube offers same set of features as NewPipe and even uses the NewPipe extractor.&lt;/p&gt;
+
+
+  &lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;SkyTube Player&lt;/summary&gt;
+  &lt;br/&gt;
+  &lt;img alt=&#34;SkyTube Player&#34; style=&#34; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  &#34; src=&#34;https://i.postimg.cc/qgVSSDgp/Screenshot-20210330-145439.jpg&#34;&gt;&lt;br/&gt;
+&lt;/details&gt;
+&lt;br/&gt;
+
+&lt;p&gt;Compared to NewPipe, SkyTube lacks newer features like YouTube chapters, watching PeerTube videos, picture in picture mode &amp;amp; viewing subtitles.&lt;/p&gt;
+&lt;p&gt;I will continue to use SkyTube for a bit longer. The only feature that I need in SkyTube to make it the best YouTube client is sponsor block support, once that&amp;rsquo;s done I can completely switch to it replacing NewPipe.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Switching Away From Notion</title>
       <link>https://pantsufan.github.io/post/journal/</link>

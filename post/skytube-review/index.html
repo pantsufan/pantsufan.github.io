@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>SkyTube Another YouTube Client - Kninja 🌩</title>
+    
+    <meta name="description" content="Better than NewPipe?">
+    <meta name="author" content="Kninja">
+    
+    <link href="https://pantsufan.github.io/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="https://pantsufan.github.io/apple-touch-icon.png">
+    <link rel="icon" href="https://pantsufan.github.io/favicon.ico">
+    <meta name="generator" content="Hugo 0.74.3" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://pantsufan.github.io">Kninja 🌩</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/about/">About</a>
+          </li>
+          <li>
+            <a href="https://fosstodon.org/@kninja">Mastodon</a>
+          </li>
+          <li>
+            <a href="https://pantsufan.github.io/post/rss.xml">RSS</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">SkyTube Another YouTube Client</h1>
+    <div class="post-meta">Kninja · March 30, 2021</div>
+  </header>
+  <div class="post-content"><p>Better than NewPipe?</p>
+<p>I have been using NewPipe for more than 3 years, but I remembered that there used to be another application on F-Droid called SkyTube, that provided similar functionality as NewPipe. Fast forwarded to present, I wanted to check out how the project has evolved over time since nobody is talking about it and to check if it&rsquo;s better than NewPipe in any way.</p>
+<p>If you search on F-Droid right now you would find two versions of SkyTube, one with non-OSS libraries and other without it. On <a href="https://skytube-app.com/">SkyTube&rsquo;s website</a> there is a comparison table on what difference both versions have to offer.</p>
+
+
+  <details markdown='1'><summary>SkyTube Homescreen</summary>
+  <br/>
+  <img alt="SkyTube Homescreen" style=" display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;" src="https://i.postimg.cc/h4zVKvN6/Screenshot-20210330-134549.jpg">
+</details>
+<br/>
+
+<p>I been using the normal version of SkyTube for a while now, and so far my favourite feature has been the <strong>channel blocker</strong>.</p>
+
+
+  <details markdown='1'><summary>Channel Block Feature</summary>
+  <br/>
+  <img alt="Channel Block Feature" style=" display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;" src="https://i.postimg.cc/qqxJp8r2/Screenshot-20210330-134845.jpg">
+<br/>
+  <img alt="Channel Block Feature" style=" display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;" src="https://i.postimg.cc/wMpxKwC6/Screenshot-20210330-134850.jpg">
+</details>
+<br/>
+
+<p>This feature makes my YouTube watching experience a lot better since I would not encounter those channels that I hate to view in my search feed since most of them have click baiting titles and thumbnails.</p>
+<p>Till now, the experience is quite good. I faced only one crash during subscription importing process. SkyTube offers same set of features as NewPipe and even uses the NewPipe extractor.</p>
+
+
+  <details markdown='1'><summary>SkyTube Player</summary>
+  <br/>
+  <img alt="SkyTube Player" style=" display: block;
+  margin-left: auto;
+  margin-right: auto;
+  " src="https://i.postimg.cc/qgVSSDgp/Screenshot-20210330-145439.jpg"><br/>
+</details>
+<br/>
+
+<p>Compared to NewPipe, SkyTube lacks newer features like YouTube chapters, watching PeerTube videos, picture in picture mode &amp; viewing subtitles.</p>
+<p>I will continue to use SkyTube for a bit longer. The only feature that I need in SkyTube to make it the best YouTube client is sponsor block support, once that&rsquo;s done I can completely switch to it replacing NewPipe.</p></div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://pantsufan.github.io/tags/100daystooffload">100DaysToOffload</a></li>
+    </ul>
+  </footer>
+  <br/>
+  <details><summary>💬 Leave Your Comments:</summary>
+    <script src="https://utteranc.es/client.js"
+    repo="pantsufan/pantsufan.github.io"
+    issue-term="title"
+    label="💬 Comments"
+    theme="dark-blue"
+    crossorigin="anonymous"
+    async>
+  </script></details>
+  
+ 
+</article></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="https://pantsufan.github.io">Kninja 🌩</a></span>
+  <span style="margin:auto; display:table;"><a href="https://512kb.club"><img src="https://512kb.club/images/green-team.svg" /></a></span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+
+</body>
+</html>
+
