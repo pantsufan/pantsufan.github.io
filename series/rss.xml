@@ -5,6 +5,11 @@
     <link>https://pantsufan.github.io/series/</link>
     <description>Recent content in Series on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://pantsufan.github.io/series/rss.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    
+	<atom:link href="https://pantsufan.github.io/series/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
+
