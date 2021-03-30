@@ -24,7 +24,7 @@
 
   &lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;SkyTube Homescreen&lt;/summary&gt;
   &lt;br/&gt;
-  &lt;img alt=&#34;SkyTube Homescreen&#34; style=&#34; display: block;
+  &lt;img  style=&#34; display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;&#34; src=&#34;https://i.postimg.cc/h4zVKvN6/Screenshot-20210330-134549.jpg&#34;&gt;
@@ -36,12 +36,12 @@
 
   &lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;Channel Block Feature&lt;/summary&gt;
   &lt;br/&gt;
-  &lt;img alt=&#34;Channel Block Feature&#34; style=&#34; display: block;
+  &lt;img style=&#34; display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;&#34; src=&#34;https://i.postimg.cc/qqxJp8r2/Screenshot-20210330-134845.jpg&#34;&gt;
 &lt;br/&gt;
-  &lt;img alt=&#34;Channel Block Feature&#34; style=&#34; display: block;
+  &lt;img style=&#34; display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;&#34; src=&#34;https://i.postimg.cc/wMpxKwC6/Screenshot-20210330-134850.jpg&#34;&gt;
@@ -54,7 +54,7 @@
 
   &lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;SkyTube Player&lt;/summary&gt;
   &lt;br/&gt;
-  &lt;img alt=&#34;SkyTube Player&#34; style=&#34; display: block;
+  &lt;img style=&#34; display: block;
   margin-left: auto;
   margin-right: auto;
   &#34; src=&#34;https://i.postimg.cc/qgVSSDgp/Screenshot-20210330-145439.jpg&#34;&gt;&lt;br/&gt;
