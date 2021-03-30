@@ -1,126 +1,132 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Using Fedora For The First Time // Kninja 🌩</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Using Fedora For The First Time - Kninja 🌩</title>
+    
+    <meta name="description" content="Fedora LXDE">
+    <meta name="author" content="Kninja">
+    
+    <link href="https://pantsufan.github.io/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="https://pantsufan.github.io/apple-touch-icon.png">
+    <link rel="icon" href="https://pantsufan.github.io/favicon.ico">
     <meta name="generator" content="Hugo 0.74.3" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Kninja" />
-    <meta name="description" content="" />
-    <link rel="stylesheet" href="https://pantsufan.github.io/css/main.min.c854925493424c92e4660aeee03598c85aa18b649f2708db7d1e803bbcc385a3.css" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
 
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
 
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
   </head>
-  <body>
-    <header class="app-header">
-      <a href="https://pantsufan.github.io"><h1>Kninja 🌩</h1></a>
-      <nav class="app-header-menu">
-          <button style="
-          background-color:#532c2cd2;
-          border-radius:10px;
-          border:1px solid #ffffff00;
-          display:inline-block;
-          cursor:pointer;
-          color:#ffffff;
-          font-family:Arial;
-          font-size:13px;
-          font-weight:bold;
-          padding:6px 12px;
-          text-decoration:none;">
-          <a  class="app-header-menu-item" href="/about/">About</a>
-        </button>
-              
-          
-          <button style="
-          background-color:#532c2cd2;
-          border-radius:10px;
-          border:1px solid #ffffff00;
-          display:inline-block;
-          cursor:pointer;
-          color:#ffffff;
-          font-family:Arial;
-          font-size:13px;
-          font-weight:bold;
-          padding:6px 12px;
-          text-decoration:none;">
-          <a  class="app-header-menu-item" href="https://fosstodon.org/@kninja">Mastodon</a>
-        </button>
-              
-          
-          <button style="
-          background-color:#532c2cd2;
-          border-radius:10px;
-          border:1px solid #ffffff00;
-          display:inline-block;
-          cursor:pointer;
-          color:#ffffff;
-          font-family:Arial;
-          font-size:13px;
-          font-weight:bold;
-          padding:6px 12px;
-          text-decoration:none;">
-          <a  class="app-header-menu-item" href="https://pantsufan.github.io/post/rss.xml">RSS</a>
-        </button>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://pantsufan.github.io">Kninja 🌩</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/about/">About</a>
+          </li>
+          <li>
+            <a href="https://fosstodon.org/@kninja">Mastodon</a>
+          </li>
+          <li>
+            <a href="https://pantsufan.github.io/post/rss.xml">RSS</a>
+          </li>
+        </ul>
       </nav>
-     <br/>
-      <span style="margin:auto; display:table; "><a href="https://512kb.club"><img src="https://512kb.club/images/green-team.svg" /></a></span>
     </header>
-    <main class="app-container">
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class ="post-title">Using Fedora For The First Time</h1>
-      <div class="post-meta">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
-  <title>calendar</title>
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
-</svg>
-          Feb 11, 2021
-        </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
-  <title>clock</title>
-  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
-</svg>
-          2 min read
-        </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
-</svg>
-              <a class="tag" href="https://pantsufan.github.io/tags/100daystooffload/">100DaysToOffload</a>
-              <a class="tag" href="https://pantsufan.github.io/tags/">Tags</a>
-        </div>
-      </div>
-    </header>
-    <div class="post-content">
-      <p>Fedora LXDE</p>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Using Fedora For The First Time</h1>
+    <div class="post-meta">Kninja · February 11, 2021</div>
+  </header>
+  <div class="post-content"><p>Fedora LXDE</p>
 <p>My first experience with Fedora was in college. Those computers were running on an older version of Fedora. Recently, I thought of using the <a href="https://spins.fedoraproject.org/en/lxde/">LXDE</a> version of Fedora since that was the interface that I had seen in college.</p>
 <p>Finding the download link of LXDE took me some time because it came under the section of the spins. When the downloading of the ISO finished, I made an instance in the virtual machine to use.</p>
 <p>The first difference that I noticed about the Fedora was it came with an Anaconda installer that was simple and easy to use. The installation time was under 10 minutes. To my surprise, the bootup time in the VM was quick compared to my previous Linux distributions. The first thing which everybody should do after installing any distro is to update its packages. Out of the box, there was an update of 643 MB with 540 packages that needed an update. On the first boot, the memory usage was around 500 MB out of 4 GB.</p>
 <p>Another major difference that caught my attention was the package manager that Fedora uses that is different from Ubuntu. It uses dnf as its package manager. The LXDE version ships with Midori, a lightweight browser. I thought of using Midori as a daily but ended up using Brave. The LXDE version came with Openbox as its window manager.</p>
 <p>To sum up everything the main reason I chose LXDE over any other desktop environment was that LXDE was the very first desktop environment that I used in my life so obviously, I had a soft corner for it in my heart. Fedora was the medium to time travel back in my childhood where I tinkered around with my computers and to get back the memory of installing my first Linux distribution.</p>
-<p>(To those who are curious which distro it was the answer is Lubuntu)</p>
-    </div>
-    <div class="post-footer">
-
-        <script src="https://utteranc.es/client.js"
-        repo="pantsufan/pantsufan.github.io"
-        issue-term="title"
-        label="💬 Comments"
-        theme="photon-dark"
-        crossorigin="anonymous"
-        async>
-      </script>
-    </div>
-
-  </article>
-
+<p>(To those who are curious which distro it was the answer is Lubuntu)</p></div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://pantsufan.github.io/tags/100daystooffload">100DaysToOffload</a></li>
+      <li><a href="https://pantsufan.github.io/tags/"></a></li>
+    </ul>
+  </footer>
+  <br/>
+  <details><summary>💬 Leave Your Comments:</summary>
+    <script src="https://utteranc.es/client.js"
+    repo="pantsufan/pantsufan.github.io"
+    issue-term="title"
+    label="💬 Comments"
+    theme="dark-blue"
+    crossorigin="anonymous"
+    async>
+  </script></details>
   
+ 
+</article></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="https://pantsufan.github.io">Kninja 🌩</a></span>
+  <span style="margin:auto; display:table;"><a href="https://512kb.club"><img src="https://512kb.club/images/green-team.svg" /></a></span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
 
-    </main>
-  </body>
+</body>
 </html>
+
