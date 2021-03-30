@@ -6,7 +6,11 @@
     <description>Recent content in Posts on Kninja 🌩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Mar 2021 06:06:15 +0530</lastBuildDate><atom:link href="https://pantsufan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 06:06:15 +0530</lastBuildDate>
+    
+	<atom:link href="https://pantsufan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>SkyTube Another YouTube Client</title>
       <link>https://pantsufan.github.io/post/skytube-review/</link>
@@ -58,7 +62,7 @@
 &lt;br/&gt;
 
 &lt;p&gt;Compared to NewPipe, SkyTube lacks newer features like YouTube chapters, watching PeerTube videos, picture in picture mode &amp;amp; viewing subtitles.&lt;/p&gt;
-&lt;p&gt;I will continue to use SkyTube for a bit longer. The only feature that I need in SkyTube to make it the best YouTube client is sponsor block support, once that&amp;rsquo;s done I can completely switch to it replacing NewPipe.&lt;/p&gt;</description>
+&lt;p&gt;I will continue to use SkyTube for a bit longer. The only feature that I need in SkyTube to make it the best YouTube client is sponsor block support, once that&amp;rsquo;s done I can completely switch to it replacing NewPipe.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -72,7 +76,7 @@
 &lt;p&gt;Since all of my journal entries are made using markdown I though it would be great idea if I have total control of my files but the problem that I was facing was how to sync them with my phone. The syncing part was solved with the help of &lt;a href=&#34;https://syncthing.net/&#34;&gt;Sync-thing&lt;/a&gt; a great utility for syncing across various devices.&lt;/p&gt;
 &lt;p&gt;As for writing down my entries I decided to use &lt;a href=&#34;https://vimwiki.github.io/&#34;&gt;vim wiki&lt;/a&gt; but instead of using its own syntax I used markdown and to edit or view those files on my phone I used an app from f-droid called &lt;a href=&#34;https://f-droid.org/en/packages/org.billthefarmer.diary/&#34;&gt;Diary&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To spell check my entries I use &lt;a href=&#34;http://aspell.net/&#34;&gt;Aspell&lt;/a&gt; which is a free and open source spell checker.&lt;/p&gt;
-&lt;p&gt;Till now I am loving the whole experience of just using terminal to write my journal entries and sync them with my phone without any hassle. I should have been doing this from the start itself but its not too late now also. Currently, I am in progress of transferring all the other notes which I have taken with the help of Notion to vim wiki.&lt;/p&gt;</description>
+&lt;p&gt;Till now I am loving the whole experience of just using terminal to write my journal entries and sync them with my phone without any hassle. I should have been doing this from the start itself but its not too late now also. Currently, I am in progress of transferring all the other notes which I have taken with the help of Notion to vim wiki.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -88,7 +92,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://f-droid.org/repo/org.yausername.dvd/en-US/phoneScreenshots/1.jpg&#34; alt=&#34;DVD&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I tried using the application to download videos off from YouTube for offline viewing purposes. Being powered by, youtube-dl I can download videos not just from Youtube but from 1000+ sites supported by youtube-dl. The application also allows specifying a custom folder to keep the downloaded video/audio files. It provides an option to update the youtube-dl version from settings and run custom commands.&lt;/p&gt;
-&lt;p&gt;The only issue that I faced throughout my usage was the slow downloading speed compared to using youtube-dl on PC. Overall, DVD is a good application for having a portable version of youtube-dl on the go.&lt;/p&gt;</description>
+&lt;p&gt;The only issue that I faced throughout my usage was the slow downloading speed compared to using youtube-dl on PC. Overall, DVD is a good application for having a portable version of youtube-dl on the go.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -111,7 +115,7 @@
 &lt;p&gt;Before switching, I made a list of my most used applications. I went with Codium instead of VS Code as my code editor of choice with Vim to handle text editing. Since I was setting up Linux as my daily driver after a long time, I had to look up how to install Node.js. I was concerned about limit the charge of the battery to 60% since I am at home. I quickly came across &lt;a href=&#34;https://github.com/sreejithag/battery-manager-linux&#34;&gt;this script&lt;/a&gt; made for the ASUS laptop that helped me restrict the charging.&lt;/p&gt;
 &lt;p&gt;Some things which I liked about the Pop OS are the ability to switch the graphics card since I don&amp;rsquo;t play games, I don&amp;rsquo;t need my Nvidia 1650Ti all the time. I have not yet tested the battery life I am looking forward to testing in the future. Also, there were no issues in setting my external monitor refresh rate to 75Hz. Also, the memory usage in Pop OS is less compared to Windows.&lt;/p&gt;
 &lt;h2 id=&#34;conculsion&#34;&gt;Conculsion&lt;/h2&gt;
-&lt;p&gt;Overall there weren&amp;rsquo;t any issues while switching from Windows to Pop OS. I like the clean minimal look that Pop OS has to offer. If anyone is thinking of switching from Windows, I will like to tell them don&amp;rsquo;t think any further, go ahead with any distro of choice they wouldn&amp;rsquo;t regret the decision. It has been one of the best decisions I have made in 2021.&lt;/p&gt;</description>
+&lt;p&gt;Overall there weren&amp;rsquo;t any issues while switching from Windows to Pop OS. I like the clean minimal look that Pop OS has to offer. If anyone is thinking of switching from Windows, I will like to tell them don&amp;rsquo;t think any further, go ahead with any distro of choice they wouldn&amp;rsquo;t regret the decision. It has been one of the best decisions I have made in 2021.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -127,7 +131,7 @@
 The HDR content is stunning to look at and, the inbuilt speakers are so loud that they removed the need to buy a soundbar. The only caveat is while watching regular 16:9 videos there, are black bars on the left and right sides but, after few days, it doesn&amp;rsquo;t even bother me.&lt;/p&gt;
 &lt;p&gt;The best part of using an ultrawide is the ability to use multiple applications on a single screen. My workflow is simple, just using each half of the display to do a single task. For example, while building a web app, I could write the code in one half and preview it in the other half. It eliminates the need to switch windows or minimize the browser. Now with the ultrawide setup, my workflow has improved to a new level.&lt;/p&gt;
 &lt;h3 id=&#34;update&#34;&gt;Update:&lt;/h3&gt;
-&lt;p&gt;For the past 14 days, I was regularly posting on this blog. But now, I have decided to take some time off to learn more about the topics that interest me. Whenever I discover something new, I post it here so guys can have a look at it.&lt;/p&gt;</description>
+&lt;p&gt;For the past 14 days, I was regularly posting on this blog. But now, I have decided to take some time off to learn more about the topics that interest me. Whenever I discover something new, I post it here so guys can have a look at it.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -148,7 +152,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;h2 id=&#34;taking-action&#34;&gt;Taking Action&lt;/h2&gt;
 &lt;p&gt;For me, my biggest, frog was to practice web development. Ever since I started to do it as the first thing after waking up I could get a lot of stuff done in a short period of time. Interestingly enough I have also noticed that I  am in the &lt;a href=&#34;https://www.youtube.com/watch?v=kj1hLFSORTQ&#34;&gt;state of flow&lt;/a&gt; and I don&amp;rsquo;t have any sense of time whats so ever. My day usually begins at 6 AM and for the next 2 hours, I am on my laptop either doing web development or reading on topics that interest me.&lt;/p&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;I learned that practice is the key to mastering any skill. Tackling your major task first thing each morning will help you stay focused, productive, and motivated to achieve more. Eat that damn frog.&lt;/p&gt;</description>
+&lt;p&gt;I learned that practice is the key to mastering any skill. Tackling your major task first thing each morning will help you stay focused, productive, and motivated to achieve more. Eat that damn frog.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -160,7 +164,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
       <description>&lt;p&gt;Its Simple and Easy&lt;/p&gt;
 &lt;p&gt;Inspired by &lt;a href=&#34;https://joelchrono12.netlify.app/adding-comments-blog/&#34;&gt;this post&lt;/a&gt;, I also wanted to add a comment section to my blog. But the first hurdle was how to get it working and which service to use. Instead of banging my head against the wall, I looked up at Hugo&amp;rsquo;s documentation on &lt;a href=&#34;https://gohugo.io/content-management/comments/#comments-alternatives&#34;&gt;comments&lt;/a&gt;. Over there, I found &lt;a href=&#34;https://utteranc.es/&#34;&gt;Utterances&lt;/a&gt;, an open-source, GitHub comments widget built on GitHub Issues.&lt;/p&gt;
 &lt;p&gt;Utterances specify how to set up the comment section in a very straightforward manner. But there was a problem once I did the initial set up and then went back to my blog to notice that the widget was not appearing. To fix this problem, I went to their GitHub issues and found someone having the &lt;a href=&#34;https://github.com/utterance/utterances/issues/461&#34;&gt;same issue&lt;/a&gt;. After the following solution that was listed over there, the comment section widget started to appear.&lt;/p&gt;
-&lt;p&gt;There you go, my short exploration journey of adding a comment section on this blog. Let me know what do you think in the comment section!&lt;/p&gt;</description>
+&lt;p&gt;There you go, my short exploration journey of adding a comment section on this blog. Let me know what do you think in the comment section!&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -179,7 +183,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;p&gt;&lt;img src=&#34;https://i.ibb.co/Sx6Bxv6/ayame.png&#34; alt=&#34;Ayame New&#34;&gt;&lt;/p&gt;
 &lt;p&gt;To sum it all up, I am happy with the new layout and how it turned out to be. If anyone has any suggestions for improving the website, contact me on Mastodon.&lt;/p&gt;
 &lt;p&gt;The original version of Ayame: &lt;a href=&#34;https://ayame.surge.sh/&#34;&gt;https://ayame.surge.sh/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The new version of Ayame: &lt;a href=&#34;https://ayamev2.vercel.app/&#34;&gt;https://ayamev2.vercel.app/&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;The new version of Ayame: &lt;a href=&#34;https://ayamev2.vercel.app/&#34;&gt;https://ayamev2.vercel.app/&lt;/a&gt;&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -194,7 +198,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;p&gt;The first difference that I noticed about the Fedora was it came with an Anaconda installer that was simple and easy to use. The installation time was under 10 minutes. To my surprise, the bootup time in the VM was quick compared to my previous Linux distributions. The first thing which everybody should do after installing any distro is to update its packages. Out of the box, there was an update of 643 MB with 540 packages that needed an update. On the first boot, the memory usage was around 500 MB out of 4 GB.&lt;/p&gt;
 &lt;p&gt;Another major difference that caught my attention was the package manager that Fedora uses that is different from Ubuntu. It uses dnf as its package manager. The LXDE version ships with Midori, a lightweight browser. I thought of using Midori as a daily but ended up using Brave. The LXDE version came with Openbox as its window manager.&lt;/p&gt;
 &lt;p&gt;To sum up everything the main reason I chose LXDE over any other desktop environment was that LXDE was the very first desktop environment that I used in my life so obviously, I had a soft corner for it in my heart. Fedora was the medium to time travel back in my childhood where I tinkered around with my computers and to get back the memory of installing my first Linux distribution.&lt;/p&gt;
-&lt;p&gt;(To those who are curious which distro it was the answer is Lubuntu)&lt;/p&gt;</description>
+&lt;p&gt;(To those who are curious which distro it was the answer is Lubuntu)&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -210,7 +214,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;p&gt;&lt;img src=&#34;https://i.ibb.co/bsR06Mq/Web-capture-9-2-2021-858.jpg&#34; alt=&#34;blog&#34; title=&#34;Recreated Blog&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The journey doesn&amp;rsquo;t stop here. The next day I sat down to create my portfolio page so, I used Eleventy and &lt;a href=&#34;https://getuikit.com/&#34;&gt;UIkit&lt;/a&gt;. The final output was just as how I thought about it.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.ibb.co/hC3DqQw/Web-capture-9-2-2021-8542.jpg&#34; alt=&#34;portfolio&#34; title=&#34;Portfolio&#34;&gt;&lt;/p&gt;
-&lt;p&gt;If you want to find a static site generator that can fulfill your needs, then have a look at &lt;a href=&#34;https://jamstack.org/generators/&#34;&gt;StaticGen&lt;/a&gt;. I have not covered every bit of Eleventy and, what makes it different from others to know more about that, read the introductory post by &lt;a href=&#34;https://www.zachleat.com/web/introducing-eleventy/&#34;&gt;Zach Leatherman&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;If you want to find a static site generator that can fulfill your needs, then have a look at &lt;a href=&#34;https://jamstack.org/generators/&#34;&gt;StaticGen&lt;/a&gt;. I have not covered every bit of Eleventy and, what makes it different from others to know more about that, read the introductory post by &lt;a href=&#34;https://www.zachleat.com/web/introducing-eleventy/&#34;&gt;Zach Leatherman&lt;/a&gt;.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -226,7 +230,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;/blockquote&gt;
 &lt;p&gt;The very first question that arrived at me while exploring Gemini was how I set up a mirrored version of this very blog and, then I came across &lt;a href=&#34;https://gemlog.blue/&#34;&gt;gemlog&lt;/a&gt;. It provides an easy way to keep a gemlog (journal) over the Gemini protocol. For creating an account you don&amp;rsquo;t require any identifying information. Pick a username of your choice with a strong password.&lt;/p&gt;
 &lt;p&gt;In order to access your newly created gemlog you need a &lt;a href=&#34;https://gemini.circumlunar.space/clients.html&#34;&gt;Gemini client&lt;/a&gt;. The one which I use is &lt;a href=&#34;https://gmi.skyjake.fi/lagrange/&#34;&gt;Lagrange&lt;/a&gt; a GUI client with cross-platform support.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;gemini://gemlog.blue/users/kninja&#34;&gt;My Gemini Capsule&lt;/a&gt; (All of my posts will be available over here)&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;gemini://gemlog.blue/users/kninja&#34;&gt;My Gemini Capsule&lt;/a&gt; (All of my posts will be available over here)&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -238,7 +242,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
       <description>&lt;p&gt;Every writer can get better, and no writer is perfect&lt;/p&gt;
 &lt;p&gt;The definition of writing can be different for many. For me, it&amp;rsquo;s putting my ideas and thoughts on a sheet of paper. I spend most of my time in front of digital screens, that&amp;rsquo;s why the sheet of paper interchanged with a blank document. Ever since I came across the 100 days of offload challenge, I wanted to test myself as a writer. I don&amp;rsquo;t aim to be an author. It&amp;rsquo;s just that I want to get better at expressing myself.&lt;/p&gt;
 &lt;p&gt;I tried blogging previously but, I failed at it, not because of a lack of ideas. I feared what people might think of my posts. In December 2020, I decided to reinstate my blogging journey with a fresh coat of new ideas. This very blog was born out of those unsuccessful ones.&lt;/p&gt;
-&lt;p&gt;Ever since I started my 100 days challenge, I learned something new every day. I am noticing the difference in my writing style. I adapted forward my old notes from books and blog posts into my very own blog posts. So, don&amp;rsquo;t think of yourself as someone who can&amp;rsquo;t do anything in life. We all start somewhere with small and humble beginnings.&lt;/p&gt;</description>
+&lt;p&gt;Ever since I started my 100 days challenge, I learned something new every day. I am noticing the difference in my writing style. I adapted forward my old notes from books and blog posts into my very own blog posts. So, don&amp;rsquo;t think of yourself as someone who can&amp;rsquo;t do anything in life. We all start somewhere with small and humble beginnings.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -249,7 +253,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
       <guid>https://pantsufan.github.io/post/reading-code/</guid>
       <description>&lt;p&gt;But Why?&lt;/p&gt;
 &lt;p&gt;Learning a computer programming language is somewhat similar to that of learning a new language to speak. According to &lt;a href=&#34;https://news.mit.edu/2020/brain-reading-computer-code-1215&#34;&gt;MIT neuroscientists&lt;/a&gt; reading computer code doesn&amp;rsquo;t involve the region of the brain which is responsible for language processing. Instead, it activates distributed network called the &lt;strong&gt;multiple demand network&lt;/strong&gt;, which also gets activated during solving a mathematical problem or a crossword.&lt;/p&gt;
-&lt;p&gt;In the case of computer code, the brain uses &lt;strong&gt;multiple areas&lt;/strong&gt; of multiple demand network. Multiple demand network gets activated only when there is a need to store more information and while performing mental tasks. The MIT team also found out that reading computer code appears to activate both the left and right sides of the multiple demand network. There is no finding of some region exclusively devoted to programming, but there is some possibility in those who have more coding experience.&lt;/p&gt;</description>
+&lt;p&gt;In the case of computer code, the brain uses &lt;strong&gt;multiple areas&lt;/strong&gt; of multiple demand network. Multiple demand network gets activated only when there is a need to store more information and while performing mental tasks. The MIT team also found out that reading computer code appears to activate both the left and right sides of the multiple demand network. There is no finding of some region exclusively devoted to programming, but there is some possibility in those who have more coding experience.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -265,7 +269,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;p&gt;A favicon is a small, iconic image that represents your website. My blog&amp;rsquo;s favicon was taking around 300 KB, due to which every time I requested my blog, the favicon was adding its extra size to the final page size. Upon discovering this issue, I redid my favicon as 32x32 instead of the previous 256x256.&lt;/p&gt;
 &lt;p&gt;The indicated fix massively improved the page size. Now, my blog&amp;rsquo;s uncompressed page size is 22.8 KB compared to the original 335.6 KB.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.postimg.cc/3J7DYCKL/new-Result-min.png&#34; alt=&#34;Current page size&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Sometimes the solution to our problem is right in front of us but, we don&amp;rsquo;t attempt to look at it thereby, wasting time and energy on something different.&lt;/p&gt;</description>
+&lt;p&gt;Sometimes the solution to our problem is right in front of us but, we don&amp;rsquo;t attempt to look at it thereby, wasting time and energy on something different.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -279,7 +283,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;p&gt;Let me get this point clear. All the systems which I owned till now were less than $300 in cost. Which also introduced me to the world of Linux since they were performing poorly on Windows. When I shifted to a $1000 laptop, I could feel the difference in performance, but that was all it for me. I could render my videos faster, play modern gaming titles &amp;amp; compile code quickly.&lt;/p&gt;
 &lt;p&gt;But when it came to gaming, I missed reading and watching tutorials online to get that last bit of FPS from the game on my older hardware. That was pure enjoyment for me since I could notice the difference it was making to the game after applying the tweaks. Some might not agree with me for the above point of view but, I feel that we have reached a stage where the law of diminishing returns makes more sense than before.&lt;/p&gt;
 &lt;p&gt;What I mean by that is we don&amp;rsquo;t need expensive hardware to improve the workflow. Our experience will guide us to be better and more efficient at work by utilizing the systems which we own currently. For example, if I am rendering a video and it takes around 30 minutes to do so. I could spend that 30 minutes reading a chapter of the book that I picked up while my video is getting rendered.&lt;/p&gt;
-&lt;p&gt;As of 2021, I have stopped playing games and, I don&amp;rsquo;t see myself playing them in the future. I have been focusing on my web development skills lately and, I could see the difference it has brought to me. I have more time at hand than before and, I could complete my daily tasks with ease.&lt;/p&gt;</description>
+&lt;p&gt;As of 2021, I have stopped playing games and, I don&amp;rsquo;t see myself playing them in the future. I have been focusing on my web development skills lately and, I could see the difference it has brought to me. I have more time at hand than before and, I could complete my daily tasks with ease.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -293,7 +297,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;p&gt;I went with ArcoLinuxB since it has the spectrwm version available to download. The installation went fast since I didn&amp;rsquo;t install any extra packages that ArcoLinux provides during installation.&lt;/p&gt;
 &lt;p&gt;Now coming to Spectrwm, ArcoLinux has already configured most of the stuff so I didn&amp;rsquo;t have to waste much time setting it up by myself. The keybindings are quite hard to find for a new user but since I knew where to lookup for the config I had no issues with that part.&lt;/p&gt;
 &lt;p&gt;I must say the window manager is quite minimal and easy to use if you remember properly the keybindings. ArcoLinux also comes with a few extra tricks at its sleeves. Such as preconfigured keybindings for most of the popular software, a key bind to change the wallpaper, and also a preconfigured polybar which is neat. It also has its own tweaks menu where you can set hblock, change the terminal theme, configure auto startup, and much more which is handy for a new user.&lt;/p&gt;
-&lt;p&gt;Overall spectrwm can be the very first window manager for most of the new users and especially if you go with ArcoLinux since most of the stuff is already preconfigured and ready to use out of the box.&lt;/p&gt;</description>
+&lt;p&gt;Overall spectrwm can be the very first window manager for most of the new users and especially if you go with ArcoLinux since most of the stuff is already preconfigured and ready to use out of the box.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -328,7 +332,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
   &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/nC_e8Gw1XlA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;I am delighted with my current setup, nothing too fancy or too minimal. Get&amp;rsquo;s the job done.&lt;/p&gt;</description>
+&lt;p&gt;I am delighted with my current setup, nothing too fancy or too minimal. Get&amp;rsquo;s the job done.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -352,7 +356,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
   &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/5axVgHHDBvU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;My process of getting videos offline is simple. Get the link of the video from invidious and paste it into the command prompt. But if I am on my phone, I use &lt;a href=&#34;https://github.com/TeamNewPipe/NewPipe&#34;&gt;Newpipe&lt;/a&gt; to watch and download YouTube videos.&lt;/p&gt;</description>
+&lt;p&gt;My process of getting videos offline is simple. Get the link of the video from invidious and paste it into the command prompt. But if I am on my phone, I use &lt;a href=&#34;https://github.com/TeamNewPipe/NewPipe&#34;&gt;Newpipe&lt;/a&gt; to watch and download YouTube videos.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -364,7 +368,7 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
       <description>&lt;p&gt;People overestimate the benefits of learning by consuming things.&lt;/p&gt;
 &lt;p&gt;Writing and learning are two seperate things but both are very powerful tools with which can help you to build your audience and opens up a new world of opportunities to you to discover.&lt;/p&gt;
 &lt;p&gt;Most of the time we consume more and think that we are learning which is hoax. Whenever we stumble upon anything which we want to learn the first step is the absorb the material and then make notes about it. Think like you will be giving a lecture about the topic which you learnt. Making notes of your own will help you to deepen the understanding of the topic, a great example of this is feynman technique.&lt;/p&gt;
-&lt;p&gt;Performing daily writing of what you learnt will create a reservoir of knowledge which you can then use for your success like sharing your learning with people online. This will also help you to improve your learning process because you will be getting feedback from the other people.&lt;/p&gt;</description>
+&lt;p&gt;Performing daily writing of what you learnt will create a reservoir of knowledge which you can then use for your success like sharing your learning with people online. This will also help you to improve your learning process because you will be getting feedback from the other people.&lt;/p&gt;</description> 
     </item>
     
     <item>
@@ -390,8 +394,9 @@ The HDR content is stunning to look at and, the inbuilt speakers are so loud tha
 &lt;li&gt;&lt;a href=&#34;https://thepracticingmind.com/&#34;&gt;The Practicing Mind&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jamesclear.com/atomic-habits&#34;&gt;Atomic Habits&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fRR2FSjVMPE&#34;&gt;How One Habit Changed My Life&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;</description> 
     </item>
     
   </channel>
 </rss>
+
