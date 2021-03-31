@@ -1,0 +1,57 @@
++++
+author = "Kninja"
+title = "Deploy API With Vercel"
+date = 2021-03-31T10:59:02+05:30
+description = ""
+tags = [
+    "100DaysToOffload",
+    "Guide",
+]
++++
+
+Host Your API On Vercel
+
+<!--more-->
+
+When I started my web development journey, I used to use Heroku to host my API (Application Programming Interface). Heroku has this concept of dyno where your API goes to sleep (idle) after 30 mins if there is no usage. On Spetember 28, 2020 (my birthday), my Heroku account got suspended. So I started to look for alternatives to host my API. The very thing that came to my mind was to buy a VPS, but since I am broke I can't afford it right now (but I had money to buy $1000 laptop).
+
+Recently, I noticed that one can host their API using Vercel. Vercel is a cloud platform for static sites and Serverless Functions. It enables developers to host websites and web services.
+
+So, let me walk you through the guide on how you can host your API on Vercel.
+
+1. Create a directory called **api**, which will contain your api endpoints file.
+
+{{< rawhtml >}}
+
+  <details markdown='1'><summary>My API Tree Structure</summary>
+  <pre>├── <font color="#D33682"><b>api</b></font>
+│   └── <font color="#DC322F"><u style="text-decoration-style:single">index.js</u></font>
+├── <font color="#D33682"><b>db</b></font>
+│   └── <font color="#DC322F"><u style="text-decoration-style:single">db.js</u></font>
+├── <font color="#D33682"><b>models</b></font>
+│   └── <font color="#DC322F"><u style="text-decoration-style:single">user.js</u></font>
+├── package.json
+├── package-lock.json
+├── <font color="#D33682"><b>routes</b></font>
+│   └── <font color="#DC322F"><u style="text-decoration-style:single">user.js</u></font>
+└── vercel.json
+</pre>
+</details>
+<br/>
+{{< /rawhtml >}}
+
+2. Create a new file called **vercel.json**, and insert the below code
+
+```
+{
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
+}
+```
+
+3. Push your API code to a Git repository, and then deploy it using Vercel
+
+With just three simple steps you have your API up and running on Vercel for free.
+
+> Tip: To run your API locally, run `node api`
+
+This is my time writing a guide on doing something so let me how's it in comments below or on Mastodon.

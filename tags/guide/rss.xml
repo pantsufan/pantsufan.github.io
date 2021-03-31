@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guide on Kninja 🌩</title>
+    <link>https://pantsufan.github.io/tags/guide/</link>
+    <description>Recent content in Guide on Kninja 🌩</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 31 Mar 2021 10:59:02 +0530</lastBuildDate>
+    
+	<atom:link href="https://pantsufan.github.io/tags/guide/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploy Your API With Vercel</title>
+      <link>https://pantsufan.github.io/post/vercel-api-guide/</link>
+      <pubDate>Wed, 31 Mar 2021 10:59:02 +0530</pubDate>
+      
+      <guid>https://pantsufan.github.io/post/vercel-api-guide/</guid>
+      <description>&lt;p&gt;Host Your API On Vercel&lt;/p&gt;
+&lt;p&gt;When I started my web development journey, I used to use Heroku to host my API (Application Programming Interface). Heroku has this concept of dyno where your API goes to sleep (idle) after 30 mins if there is no usage. On September 28, 2020 (my birthday), my Heroku account got suspended. So I started to look for alternatives to host my API. The very thing that came to my mind was to buy a VPS, but since I am broke I can&amp;rsquo;t afford it right now (but I had money to buy $1000 laptop).&lt;/p&gt;
+&lt;p&gt;Recently, I noticed that one can host their API using Vercel. Vercel is a cloud platform for static sites and server-less Functions. It enables developers to host websites and web services.&lt;/p&gt;
+&lt;p&gt;So, let me walk you through the guide on how you can host your API on Vercel.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a directory called &lt;strong&gt;api&lt;/strong&gt;, which will contain your API endpoints file.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+  &lt;details markdown=&#39;1&#39;&gt;&lt;summary&gt;My API Tree Structure&lt;/summary&gt;
+  &lt;pre&gt;├── &lt;font color=&#34;#D33682&#34;&gt;&lt;b&gt;api&lt;/b&gt;&lt;/font&gt;
+│   └── &lt;font color=&#34;#DC322F&#34;&gt;&lt;u style=&#34;text-decoration-style:single&#34;&gt;index.js&lt;/u&gt;&lt;/font&gt;
+├── &lt;font color=&#34;#D33682&#34;&gt;&lt;b&gt;db&lt;/b&gt;&lt;/font&gt;
+│   └── &lt;font color=&#34;#DC322F&#34;&gt;&lt;u style=&#34;text-decoration-style:single&#34;&gt;db.js&lt;/u&gt;&lt;/font&gt;
+├── &lt;font color=&#34;#D33682&#34;&gt;&lt;b&gt;models&lt;/b&gt;&lt;/font&gt;
+│   └── &lt;font color=&#34;#DC322F&#34;&gt;&lt;u style=&#34;text-decoration-style:single&#34;&gt;user.js&lt;/u&gt;&lt;/font&gt;
+├── package.json
+├── package-lock.json
+├── &lt;font color=&#34;#D33682&#34;&gt;&lt;b&gt;routes&lt;/b&gt;&lt;/font&gt;
+│   └── &lt;font color=&#34;#DC322F&#34;&gt;&lt;u style=&#34;text-decoration-style:single&#34;&gt;user.js&lt;/u&gt;&lt;/font&gt;
+└── vercel.json
+&lt;/pre&gt;
+&lt;/details&gt;
+&lt;br/&gt;
+
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Create a new file called &lt;strong&gt;vercel.json&lt;/strong&gt;, and insert the below code&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;rewrites&amp;quot;: [{ &amp;quot;source&amp;quot;: &amp;quot;/api/(.*)&amp;quot;, &amp;quot;destination&amp;quot;: &amp;quot;/api&amp;quot; }]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Push your API code to a Git repository, and then deploy it using Vercel&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With just three simple steps you have your API up and running on Vercel for free.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tip: To run your API locally, run &lt;code&gt;node api&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is my time writing a guide on doing something so let me how&amp;rsquo;s it in comments below or on Mastodon.&lt;/p&gt;</description> 
+    </item>
+    
+  </channel>
+</rss>
+
