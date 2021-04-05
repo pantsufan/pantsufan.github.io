@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Deploy Your API With Vercel - Kninja 🌩</title>
+    <title>Posts Archive - Kninja 🌩</title>
     
-    <meta name="description" content="Host Your API On Vercel">
-    <meta name="author" content="Kninja">
+    <meta name="description" content="2021 31 Mar &ndash; Deploy Your API With Vercel
+30 Mar &ndash; SkyTube Another YouTube Client
+03 Mar &ndash; Switching Away From Notion
+22 Feb &ndash; DVD: A YouTube-DL Client For Android
+20 Feb &ndash; Bye Windows, Welcome Pop OS
+18 Feb &ndash; Using An Ultrawide Monitor
+14 Feb &ndash; Tackling Your Major Task
+13 Feb &ndash; Adding Comment Section To My Blog
+12 Feb &ndash; Recreating My Project Using NextJS">
+    <meta name="author" content="">
     
     <link href="https://pantsufan.github.io/style.css" rel="stylesheet">
     
@@ -93,55 +101,32 @@
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Deploy Your API With Vercel</h1>
-    <div class="post-meta">Kninja · March 31, 2021</div>
+    <h1 class="post-title">Posts Archive</h1>
+    <div class="post-meta">January 18, 2021</div>
   </header>
-  <div class="post-content"><p>Host Your API On Vercel</p>
-<p>When I started my web development journey, I used to use Heroku to host my API (Application Programming Interface). Heroku has this concept of dyno where your API goes to sleep (idle) after 30 mins if there is no usage. On September 28, 2020 (my birthday), my Heroku account got suspended. So I started to look for alternatives to host my API. The very thing that came to my mind was to buy a VPS, but since I am broke I can&rsquo;t afford it right now (but I had money to buy $1000 laptop).</p>
-<p>Recently, I noticed that one can host their API using Vercel. Vercel is a cloud platform for static sites and server-less Functions. It enables developers to host websites and web services.</p>
-<p>So, let me walk you through the guide on how you can host your API on Vercel.</p>
-<ol>
-<li>Create a directory called <strong>api</strong>, which will contain your API endpoints file.</li>
-</ol>
-
-
-
-  <details markdown='1'><summary>My API Tree Structure</summary>
-  <pre>├── <font color="#D33682"><b>api</b></font>
-│   └── <font color="#DC322F"><u style="text-decoration-style:single">index.js</u></font>
-├── <font color="#D33682"><b>db</b></font>
-│   └── <font color="#DC322F"><u style="text-decoration-style:single">db.js</u></font>
-├── <font color="#D33682"><b>models</b></font>
-│   └── <font color="#DC322F"><u style="text-decoration-style:single">user.js</u></font>
-├── package.json
-├── package-lock.json
-├── <font color="#D33682"><b>routes</b></font>
-│   └── <font color="#DC322F"><u style="text-decoration-style:single">user.js</u></font>
-└── vercel.json
-</pre>
-</details>
-<br/>
-
-<ol start="2">
-<li>Create a new file called <strong>vercel.json</strong>, and insert the below code</li>
-</ol>
-<pre><code>{
-  &quot;rewrites&quot;: [{ &quot;source&quot;: &quot;/api/(.*)&quot;, &quot;destination&quot;: &quot;/api&quot; }]
-}
-</code></pre><ol start="3">
-<li>Push your API code to a Git repository, and then deploy it using Vercel</li>
-</ol>
-<p>With just three simple steps you have your API up and running on Vercel for free.</p>
-<blockquote>
-<p>Tip: To run your API locally, run <code>node api</code></p>
-</blockquote>
-<p>This is my time writing a guide on doing something so let me how&rsquo;s it in comments below or on Mastodon.</p></div>
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="https://pantsufan.github.io/tags/100daystooffload">100DaysToOffload</a></li>
-      <li><a href="https://pantsufan.github.io/tags/guide">Guide</a></li>
-    </ul>
-  </footer>
+  <div class="post-content"><h2 id="2021">2021</h2>
+<p>31 Mar &ndash; <a href="https://pantsufan.github.io/post/vercel-api-guide/">Deploy Your API With Vercel</a></p>
+<p>30 Mar &ndash; <a href="https://pantsufan.github.io/post/skytube-review/">SkyTube Another YouTube Client</a></p>
+<p>03 Mar &ndash; <a href="https://pantsufan.github.io/post/journal/">Switching Away From Notion</a></p>
+<p>22 Feb &ndash; <a href="https://pantsufan.github.io/post/dvd-youtubedl/">DVD: A YouTube-DL Client For Android</a></p>
+<p>20 Feb &ndash; <a href="https://pantsufan.github.io/post/switching-process/">Bye Windows, Welcome Pop OS</a></p>
+<p>18 Feb &ndash; <a href="https://pantsufan.github.io/post/ultrawide/">Using An Ultrawide Monitor</a></p>
+<p>14 Feb &ndash; <a href="https://pantsufan.github.io/post/tackling-your-tasks/">Tackling Your Major Task</a></p>
+<p>13 Feb &ndash; <a href="https://pantsufan.github.io/post/comments/">Adding Comment Section To My Blog</a></p>
+<p>12 Feb &ndash; <a href="https://pantsufan.github.io/post/recreate-with-nextjs/">Recreating My Project Using NextJS</a></p>
+<p>11 Feb &ndash; <a href="https://pantsufan.github.io/post/fedora-lxde/">Using Fedora For The First Time</a></p>
+<p>10 Feb &ndash; <a href="https://pantsufan.github.io/post/eleventy/">Eleventy My New Love</a></p>
+<p>09 Feb &ndash; <a href="https://pantsufan.github.io/post/gemini-capsule/">Create A Gemini Capsule</a></p>
+<p>08 Feb &ndash; <a href="https://pantsufan.github.io/post/writer/">Improve as a Writer</a></p>
+<p>07 Feb &ndash; <a href="https://pantsufan.github.io/post/reading-code/">Reading Computer Code Is Different</a></p>
+<p>06 Feb &ndash; <a href="https://pantsufan.github.io/post/page-size/">Reduction of Page Size</a></p>
+<p>05 Feb &ndash; <a href="https://pantsufan.github.io/post/gaming-laptop/">Gaming Laptop Are Becoming Boring</a></p>
+<p>04 Feb &ndash; <a href="https://pantsufan.github.io/post/spectrwm/">Trying Out Spectrwm</a></p>
+<p>03 Feb &ndash; <a href="https://pantsufan.github.io/post/awesome-wm/">Trying Out Awesome WM</a></p>
+<p>02 Feb &ndash; <a href="https://pantsufan.github.io/post/youtube-dl/">YouTube-DL</a></p>
+<p>01 Feb &ndash; <a href="https://pantsufan.github.io/post/create/">Create More, Consume Less</a></p>
+<p>18 Jan &ndash; <a href="https://pantsufan.github.io/post/habits/">Habits are Learned</a></p>
+</div>
   <br/>
   <details><summary>💬 Leave Your Comments:</summary>
     <script src="https://utteranc.es/client.js"
